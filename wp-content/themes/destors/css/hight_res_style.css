@@ -1,0 +1,67 @@
+/* test_version*/
+
+@media (min-width: 2800px) {
+    body {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+
+    .lang-list__link {
+        font-size: 18px;
+    }
+    .container {
+        max-width: 2000px;
+    }
+
+    .main-info {
+        padding-top: 6%;
+        padding-bottom: 7%;
+    }
+
+    .hobbies-list {
+        justify-content: center;
+    }
+
+    .hobbies-list__item {
+        min-width: 30%;
+    }
+
+    .hobbies-list__img {
+        width: 217px;
+        height: 219px;
+    }
+
+    .hobbies-list__description {
+        max-width: 400px;
+        padding: 0;
+        margin: 0 auto;
+
+        font-size: inherit;
+
+        text-align: center;
+    }
+
+    .desires-content-wrapper {
+        padding: 11% 20px 10% 20px;
+    }
+
+    .advantages-list {
+        padding-top: 7%;
+    }
+
+    .copyright__title {
+        font-size: inherit;
+    }
+
+    .progress-bar {
+        height: 60px;
+    }
+
+    .progress-bar:before {
+        height: 100%;
+    }
+
+    .social-list__item {
+    margin-right: 35px;
+    transform: scale(1.7);
+}

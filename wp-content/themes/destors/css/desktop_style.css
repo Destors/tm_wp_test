@@ -1,0 +1,276 @@
+@media (min-width: 660px) {
+    a:hover,
+    a:focus {
+        opacity: .2;
+    }
+
+    a:active {
+        opacity: 1;
+    }
+    .container {
+        min-width: 970px;
+    }
+
+    .lang-menu {
+        float: right;
+    }
+
+    .lang-list {
+        display: flex;
+    }
+
+    .page_item:first-child {
+        border-left: none;
+    }
+
+    .page_item {
+        padding-left: 7px;
+
+        border-left: 2px solid white;
+    }
+
+
+    .header-info {
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-info__wrapper-photo {
+        margin: 0 40px;
+    }
+
+    .header-info__wrapper-info {
+        width: 324px;
+        margin: 0;
+    }
+
+    .main-header {
+        margin-bottom: 70px;
+    }
+
+    .main-info {
+        min-height: 300px;
+        padding-top: 7%;
+        margin-bottom: 70px;
+
+        background-position-x: 10%;
+        background-position-y: 42px;
+        background-size: 40%;
+    }
+
+    .main-info-wrapper {
+        width: 50%;
+        margin-left: auto;
+
+        text-align: left;
+    }
+
+    .page-main__button {
+        margin: 0 auto 0 0;
+    }
+
+    .page-main__button:hover,
+    .page-main__button:focus {
+        background-color: #7f7f7fff;
+    }
+
+    .page-main__button:active {
+        background-color: #191919ff;
+    }
+
+    .advantages {
+        padding-top: 7%;
+
+        background-position-x: 10%;
+        background-position-y: 50px;
+        background-size: 40%;
+    }
+
+    .advantages-title-wrapper {
+        width: 50%;
+        padding-left: 24px;
+        margin-left: auto;
+
+        text-align: left;
+
+        border-left: 2px solid;
+    }
+
+    .advantages-list {
+        display: flex;
+        padding-top: 20px;
+
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .advantages-list__item {
+        width: 47%;
+    }
+
+    .hobbies {
+        margin: 40px;
+    }
+
+    .hobbies__title {
+        margin-bottom: 44px;
+
+        text-align: center;
+    }
+
+    .hobbies-list {
+        display: flex;
+
+        flex-wrap: wrap;
+    }
+
+    .hobbies-list__item {
+        display: block;
+        padding: 3px 40px;
+    }
+
+    .hobbies-list__link:hover .hobbies-list__img {
+        transform: scale(1.1);
+
+        opacity: .7;
+    }
+    .hobbies-list__description {
+        max-width: 200px;
+    }
+
+    .desires {
+        min-height: 330px;
+        padding: 0;
+        margin: 0;
+
+        background-color: #262835;
+        background-image: url(../img/background_dreams.jpg);
+        background-repeat: no-repeat;
+        background-position-x: 10%;
+        background-position-y: 10px;
+        background-size: 40%;
+    }
+
+    .desires-content-wrapper {
+        display: block;
+        width: 50%;
+        padding: 10% 20px 5% 20px;
+        margin: 0;
+        margin-left: auto;
+
+        text-align: left;
+    }
+
+    .hide-content {
+        display: flex;
+
+        flex-wrap: wrap;
+    }
+
+    .contacts {
+        display: flex;
+        padding: 10px 20px 5px 10px;
+
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .contacts-list {
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+
+    .contacts-list__item {
+        padding: 0 20px;
+    }
+
+    .contacts-list__link {
+        padding: 2px 10px;
+
+        font-size: 12px;
+    }
+
+    .contacts__copyright {
+        padding: 0;
+        margin: 0;
+    }
+
+    .modal {
+        width: 800px;
+        overflow: unset;
+    }
+
+    .modal__close-btn {
+        cursor: pointer;
+    }
+
+    .modal__close-btn:hover,
+    .modal__close-btn:focus {
+        opacity: .5;
+    }
+
+    .modal__submit-btn:hover,
+    .modal__submit-btn:focus {
+        opacity: .5;
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 50;
+
+        display: none;
+        width: 100%;
+        height: 100%;
+
+        opacity: .9;
+        background: #000;
+    }
+
+    .modal-window {
+        position: fixed;
+        top: 47%;
+        left: 50%;
+        z-index: 100;
+
+        width: 960px;
+        padding: 20px;
+        overflow: hidden;
+
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+
+        background-color: white;
+        -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .4);
+                box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .4);
+    }
+
+    .modal-user-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .modal-user-column {
+        width: 360px;
+        margin-top: 12px;
+    }
+
+    .modal-input:hover {
+        border-color: #b4b9bb;
+    }
+
+    .modal-input:focus {
+        border-color: black;
+    }
+}
